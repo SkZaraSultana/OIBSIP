@@ -1,187 +1,189 @@
-# Oasis Infobyte Web Development and Designing Internship
+# ✦ Oasis Infobyte | Web Development & Designing
 
-A collection of web development projects completed as part of the **Oasis Infobyte Web Development and Designing Internship**.
+> **Build. Learn. Improve. Repeat.**
 
-The projects in this repository were developed using HTML5, CSS3, and JavaScript, with a focus on responsive design, user interaction, clean layouts, and practical frontend development.
+A collection of web projects developed during my **Oasis Infobyte Web Development and Designing Internship**.
 
----
-
-## 👩‍💻 Intern Details
-
-- **Intern:** Shaik Zara Sultana
-- **Organization:** Oasis Infobyte
-- **Track:** Web Development and Designing
-- **Levels Completed:** Level 1 and Level 2
+This repository represents my progress from building simple responsive pages to creating interactive JavaScript applications, with each task focusing on a different practical web development concept.
 
 ---
 
-# 📌 Level 1
+## 👩🏻‍💻 About Me
 
-Level 1 focuses on building a strong foundation in HTML, CSS, responsive design, and basic JavaScript.
+**Shaik Zara Sultana**  
+B.Tech CSE — Artificial Intelligence
 
-## Task 1 — Landing Page
+**Internship:** Oasis Infobyte  
+**Track:** Web Development and Designing  
+**Completed:** Level 1 + Level 2
 
-### 🌌 GlowSpace
+---
 
-A responsive landing page designed with a clean and modern layout.
+# 🚀 What I Built
 
-### Features
+## LEVEL 01 — The Foundation
 
-- Sticky navigation bar
-- Hero section with headline, description, and CTA
-- About section
-- Features section
+> *Learning the structure, styling, and interaction behind the web.*
+
+### 01 · GlowSpace — Landing Page 🌌
+
+A responsive landing page created with a clean visual structure and modern layout.
+
+**Highlights**
+
+- Sticky navigation
+- Hero section with CTA
+- About & Features sections
 - Contact section
-- Footer with social/contact links
-- Responsive desktop and mobile layouts
-- Flexbox and CSS Grid
-- Consistent visual design
+- Responsive desktop/mobile layout
+- Flexbox & CSS Grid
 
-### Technologies
+**Built with:** `HTML5` `CSS3`
 
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
+📁 `WebDev-L1-LandingPage/`
 
-### Folder
+---
+
+### 02 · Zara Portfolio — Personal Portfolio 👩🏻‍💻
+
+A personal portfolio website designed to showcase my profile, technical skills, projects, and contact information.
+
+**Highlights**
+
+- Personal hero section
+- About Me
+- Skills showcase
+- Project section
+- Contact section
+- Smooth navigation
+- Responsive design
+
+**Built with:** `HTML5` `CSS3` `Flexbox` `CSS Grid`
+
+📁 `WebDev-L1-Portfolio/`
+
+---
+
+### 03 · Temperature Converter 🌡️
+
+An interactive temperature conversion tool supporting Celsius, Fahrenheit, and Kelvin.
+
+**Highlights**
+
+- Multi-unit conversion
+- Input validation
+- Absolute-zero validation
+- Error handling
+- Interactive controls
+- Responsive interface
+
+**Built with:** `HTML5` `CSS3` `JavaScript`
+
+📁 `WebDev-L1-Temperature-Converter/`
+
+---
+
+# ⚡ LEVEL 02 — Building Interaction
+
+> *Moving beyond static pages into real user interaction.*
+
+### 01 · Web Calculator 🧮
+
+A browser-based calculator designed to handle everyday arithmetic operations through an interactive interface.
+
+**Highlights**
+
+- Addition, subtraction, multiplication & division
+- Decimal calculations
+- Clear & backspace
+- Operator chaining
+- Division-by-zero protection
+- CSS Grid calculator layout
+- Event-driven JavaScript
+
+**Built with:** `HTML5` `CSS3` `Vanilla JavaScript`
+
+📁 `WebDev-L2-Calculator/`
+
+---
+
+### 02 · Dr. A. P. J. Abdul Kalam — Tribute Page 🏛️
+
+A responsive tribute page celebrating the life, achievements, and legacy of **Dr. A. P. J. Abdul Kalam**.
+
+**Highlights**
+
+- Hero introduction
+- Biography
+- Important milestones
+- Achievements
+- Inspirational quote
+- Legacy section
+- Responsive editorial layout
+
+**Built with:** `HTML5` `CSS3` `Google Fonts`
+
+📁 `WebDev-L2-Tribute-Page/`
+
+🖼️ Portrait sourced from **Wikimedia Commons**
+
+---
+
+### 03 · TaskFlow — To-Do Web App ✅
+
+An interactive task management application for organising pending and completed tasks.
+
+**Highlights**
+
+- Add tasks
+- Mark tasks as complete
+- Edit tasks inline
+- Delete tasks
+- Pending & completed counters
+- Task timestamps
+- Empty-state messages
+- `localStorage` persistence
+- Responsive design
+
+**Built with:** `HTML5` `CSS3` `Vanilla JavaScript` `localStorage`
+
+📁 `WebDev-L2-To-Do-App/`
+
+---
+
+# 🧩 Skills in Practice
+
+Throughout these projects, I worked with:
 
 ```text
-WebDev-L1-LandingPage/
-Task 2 — Personal Portfolio
-👩‍💻 Zara Portfolio
-
-A responsive personal portfolio website created to present my profile, skills, projects, and contact information.
-
-Features
-Personal hero section
-About Me section
-Skills section
-Projects showcase
-Contact section
-Smooth scrolling navigation
-Responsive layout
-Mobile-friendly design
-Clean professional interface
-Technologies
 HTML5
 CSS3
+JavaScript
+Responsive Web Design
 Flexbox
 CSS Grid
+DOM Manipulation
+Event Handling
+Input Validation
+localStorage
+Git
+GitHub
 Google Fonts
-Folder
-WebDev-L1-Portfolio/
-Task 3 — Temperature Converter
-🌡️ Temperature Converter
 
-An interactive temperature conversion website that allows users to convert values between Celsius, Fahrenheit, and Kelvin.
+📈 My Progress
+LEVEL 1
+────────────────────────────────────
+Landing Page          ✓
+Personal Portfolio    ✓
+Temperature Converter ✓
 
-Features
-Celsius conversion
-Fahrenheit conversion
-Kelvin conversion
-Numeric input validation
-Friendly error messages
-Absolute-zero validation
-Displays converted values
-Interactive Convert button
-Responsive design
-Technologies
-HTML5
-CSS3
-Vanilla JavaScript
-Folder
-WebDev-L1-Temperature-Converter/
-🚀 Level 2
+LEVEL 2
+────────────────────────────────────
+Calculator            ✓
+Tribute Page          ✓
+To-Do Web App         ✓
+6 Projects · 2 Levels · One Learning Journey
 
-Level 2 focuses on building more interactive web applications using JavaScript and improving practical frontend development skills.
-
-Task 1 — Calculator
-🧮 Web Calculator
-
-A browser-based calculator designed to perform basic arithmetic operations through an interactive button interface.
-
-Features
-Numeric buttons 0–9
-Decimal input
-Addition
-Subtraction
-Multiplication
-Division
-Equals operation
-Clear button
-Backspace functionality
-Operator chaining
-Division-by-zero protection
-Responsive calculator layout
-CSS Grid button arrangement
-JavaScript event listeners
-Technologies
-HTML5
-CSS3
-Vanilla JavaScript
-Folder
-WebDev-L2-Calculator/
-Task 2 — Tribute Page
-🏛️ Dr. A. P. J. Abdul Kalam — Tribute Page
-
-A responsive tribute page dedicated to Dr. A. P. J. Abdul Kalam, highlighting his life, achievements, contributions, and inspiring message.
-
-Features
-Hero section with subject name and tagline
-Prominent portrait
-Biography section
-Timeline of important milestones
-Key achievements
-Distinctive quote section
-Legacy section
-Responsive design
-Multiple background colours
-Serif and sans-serif typography
-Editorial-inspired visual design
-Technologies
-HTML5
-CSS3
-Google Fonts
-CSS Grid
-Responsive Design
-Image Source
-
-The portrait used in the project was sourced from Wikimedia Commons.
-
-Information Sources
-
-Factual information was researched from reliable sources including the President of India website and paraphrased for the project.
-
-Folder
-WebDev-L2-Tribute-Page/
-Task 3 — To-Do Web App
-✅ TaskFlow
-
-An interactive to-do list application designed to help users organise daily tasks and track completed work.
-
-Features
-Add new tasks
-Pending Tasks list
-Completed Tasks list
-Mark tasks as complete
-Edit tasks inline
-Delete tasks
-Pending task count
-Completed task count
-Task timestamps
-localStorage persistence
-Tasks remain after page refresh
-Friendly empty-state messages
-Responsive desktop and mobile layout
-Technologies
-HTML5
-CSS3
-Vanilla JavaScript
-Browser localStorage
-Google Fonts
-Folder
-WebDev-L2-To-Do-App/
 📂 Repository Structure
 OIBSIP/
 │
@@ -226,56 +228,49 @@ OIBSIP/
     ├── script.js
     ├── README.md
     └── screenshots/
-🛠️ Technologies Used
-Frontend
-HTML5
-CSS3
-JavaScript
-Responsive Web Design
-Flexbox
-CSS Grid
-DOM Manipulation
-Browser localStorage
-Tools
-Visual Studio Code
-Git
-GitHub
-Google Fonts
-📚 Skills Practiced
 
-Through these projects, I worked on:
+🎯 Internship Takeaways
 
-Semantic HTML structure
-CSS styling and layouts
-Responsive web design
-Flexbox and CSS Grid
-JavaScript fundamentals
-DOM manipulation
-Event handling
-Input validation
-User interaction
-Browser localStorage
-Creating reusable UI structures
-Git and GitHub workflow
-Project documentation
-Building mobile-friendly interfaces
-🎓 Internship
+These projects helped me move from understanding individual HTML and CSS concepts to building complete, interactive frontend experiences.
 
-These projects were completed as part of the Oasis Infobyte Web Development and Designing Internship.
+Some of the areas I strengthened include:
 
-The internship provided an opportunity to strengthen practical web development skills by building multiple projects with increasing levels of functionality and interaction.
+Structuring webpages with semantic HTML
+Creating responsive layouts
+Designing reusable UI sections
+Working with CSS Grid and Flexbox
+Handling user interactions with JavaScript
+Manipulating the DOM
+Validating user input
+Managing browser-side data with localStorage
+Using Git and GitHub for project management
+Documenting projects clearly
 
-📌 Completed Tasks
-Level	Task	Project	Status
-Level 1	Task 1	Landing Page — GlowSpace	✅ Completed
-Level 1	Task 2	Personal Portfolio	✅ Completed
-Level 1	Task 3	Temperature Converter	✅ Completed
-Level 2	Task 1	Calculator	✅ Completed
-Level 2	Task 2	Tribute Page — Dr. A. P. J. Abdul Kalam	✅ Completed
-Level 2	Task 3	To-Do Web App — TaskFlow	✅ Completed
-👩‍💻 Author
+🌱 A Small Step Forward
 
-Shaik Zara Sultana
+This repository is more than a collection of internship tasks.
 
-B.Tech — Computer Science and Engineering
-Specialization in Artificial Intelligence
+It is a record of learning through building, testing, fixing, and improving — one project at a time.
+
+👩🏻‍💻 Shaik Zara Sultana
+
+B.Tech CSE — Artificial Intelligence
+
+Oasis Infobyte Web Development and Designing Internship
+
+© 2026 Shaik Zara Sultana
+
+
+### Why I prefer this one for your GitHub
+
+It doesn't look like a boring internship submission README. It has a **portfolio/project-journal feel**:
+
+**`LEVEL → Project → Highlights → Tech → Folder`**
+
+instead of repeating:
+
+> Features → Technologies → Folder → Features → Technologies → Folder 😭
+
+And the line:
+
+> **6 Projects · 2 Levels · One Learning Journey**
