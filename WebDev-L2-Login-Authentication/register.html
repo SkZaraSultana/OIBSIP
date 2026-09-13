@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLogin | Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="auth-page">
+
+        <section class="auth-card">
+
+            <div class="brand">
+                <div class="brand-icon">✨</div>
+                <h1>SecureLogin</h1>
+                <p>Create your secure account</p>
+            </div>
+
+            <div class="form-section">
+
+                <h2>Create account</h2>
+                <p class="form-subtitle">
+                    Register to get started
+                </p>
+
+                <form id="registerForm">
+
+                    <div class="input-group">
+                        <label for="registerUsername">
+                            Username
+                        </label>
+
+                        <input
+                            type="text"
+                            id="registerUsername"
+                            placeholder="Choose a username"
+                            autocomplete="username"
+                        >
+                    </div>
+
+                    <div class="input-group">
+                        <label for="registerEmail">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="registerEmail"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                        >
+                    </div>
+
+                    <div class="input-group">
+                        <label for="registerPassword">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="registerPassword"
+                            placeholder="Minimum 8 characters"
+                            autocomplete="new-password"
+                        >
+
+                        <small class="password-hint">
+                            Minimum 8 characters and at least 1 number
+                        </small>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirmPassword">
+                            Confirm Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            placeholder="Re-enter your password"
+                            autocomplete="new-password"
+                        >
+                    </div>
+
+                    <p id="registerMessage" class="message"></p>
+
+                    <button type="submit" class="primary-btn">
+                        Register
+                    </button>
+
+                </form>
+
+                <p class="switch-text">
+                    Already have an account?
+                    <a href="index.html">Login here</a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

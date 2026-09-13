@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLogin | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="dashboard-page">
+
+        <nav class="dashboard-nav">
+            <div class="nav-brand">
+                <span class="nav-icon">🔐</span>
+                <span>SecureLogin</span>
+            </div>
+
+            <button id="logoutBtn" class="logout-btn">
+                Logout
+            </button>
+        </nav>
+
+        <section class="dashboard-content">
+
+            <div class="welcome-card">
+
+                <div class="welcome-icon">✓</div>
+
+                <p class="eyebrow">AUTHENTICATION SUCCESSFUL</p>
+
+                <h1>
+                    Welcome,
+                    <span id="userName">User</span>!
+                </h1>
+
+                <p class="welcome-text">
+                    You have successfully logged in to your protected dashboard.
+                </p>
+
+            </div>
+
+            <div class="dashboard-grid">
+
+                <article class="info-card">
+                    <div class="card-icon">🛡️</div>
+                    <h2>Protected Access</h2>
+                    <p>
+                        This page can only be accessed when an active login
+                        session is available.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon">🔒</div>
+                    <h2>Secure Storage</h2>
+                    <p>
+                        Passwords are stored as SHA-256 hashes instead of
+                        plain-text passwords.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon">⚡</div>
+                    <h2>Session Control</h2>
+                    <p>
+                        Logging out clears the active session and protects
+                        the dashboard from further access.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
