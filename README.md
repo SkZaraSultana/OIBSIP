@@ -151,6 +151,30 @@ An interactive task management application for organising pending and completed 
 
 ---
 
+### 04 · SecureLogin — Login Authentication System 🔐
+
+A client-side authentication system designed to demonstrate registration, login validation, protected access, and session control.
+
+**Highlights**
+
+- User registration
+- Username & email validation
+- Password strength validation
+- Duplicate account detection
+- Secure password hashing with SHA-256
+- Login using username or email
+- Generic invalid-credential handling
+- Protected dashboard
+- Session management with `localStorage`
+- Logout functionality
+- Responsive authentication interface
+
+**Built with:** `HTML5` `CSS3` `Vanilla JavaScript` `Web Crypto API` `localStorage`
+
+📁 `WebDev-L2-Login-Authentication/`
+
+---
+
 # 🧩 Skills in Practice
 
 Throughout these projects, I worked with:
@@ -165,24 +189,27 @@ CSS Grid
 DOM Manipulation
 Event Handling
 Input Validation
+Authentication Concepts
+Password Hashing
+Web Crypto API
 localStorage
 Git
 GitHub
 Google Fonts
 
+
 📈 My Progress
 LEVEL 1
-────────────────────────────────────
 Landing Page          ✓
 Personal Portfolio    ✓
 Temperature Converter ✓
-
 LEVEL 2
-────────────────────────────────────
 Calculator            ✓
 Tribute Page          ✓
 To-Do Web App         ✓
-6 Projects · 2 Levels · One Learning Journey
+Login Authentication  ✓
+
+7 Projects · 2 Levels · One Learning Journey
 
 📂 Repository Structure
 OIBSIP/
@@ -222,13 +249,21 @@ OIBSIP/
 │   ├── README.md
 │   └── screenshots/
 │
-└── WebDev-L2-To-Do-App/
+├── WebDev-L2-To-Do-App/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── README.md
+│   └── screenshots/
+│
+└── WebDev-L2-Login-Authentication/
     ├── index.html
+    ├── register.html
+    ├── dashboard.html
     ├── style.css
     ├── script.js
     ├── README.md
     └── screenshots/
-
 🎯 Internship Takeaways
 
 These projects helped me move from understanding individual HTML and CSS concepts to building complete, interactive frontend experiences.
@@ -242,10 +277,11 @@ Working with CSS Grid and Flexbox
 Handling user interactions with JavaScript
 Manipulating the DOM
 Validating user input
+Building client-side authentication flows
+Understanding password hashing concepts
 Managing browser-side data with localStorage
 Using Git and GitHub for project management
 Documenting projects clearly
-
 🌱 A Small Step Forward
 
 This repository is more than a collection of internship tasks.
@@ -259,18 +295,3 @@ B.Tech CSE — Artificial Intelligence
 Oasis Infobyte Web Development and Designing Internship
 
 © 2026 Shaik Zara Sultana
-
-
-### Why I prefer this one for your GitHub
-
-It doesn't look like a boring internship submission README. It has a **portfolio/project-journal feel**:
-
-**`LEVEL → Project → Highlights → Tech → Folder`**
-
-instead of repeating:
-
-> Features → Technologies → Folder → Features → Technologies → Folder 😭
-
-And the line:
-
-> **6 Projects · 2 Levels · One Learning Journey**
