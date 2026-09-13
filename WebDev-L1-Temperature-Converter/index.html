@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="converter-container">
+
+        <section class="converter-card">
+
+            <div class="heading">
+                <p class="tag">QUICK CONVERSION</p>
+                <h1>Temperature Converter</h1>
+                <p>
+                    Convert temperatures easily between Celsius,
+                    Fahrenheit, and Kelvin.
+                </p>
+            </div>
+
+            <div class="converter-form">
+
+                <label for="temperature">Temperature</label>
+
+                <input
+                    type="number"
+                    id="temperature"
+                    placeholder="Enter temperature"
+                    step="any"
+                >
+
+                <label for="unit">Input Unit</label>
+
+                <select id="unit">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+
+                <button id="convertBtn">Convert Temperature</button>
+
+                <p id="errorMessage" class="error-message"></p>
+
+            </div>
+
+            <div class="results">
+
+                <h2>Converted Results</h2>
+
+                <div class="result-grid">
+
+                    <div class="result-box">
+                        <span>Celsius</span>
+                        <strong id="celsiusResult">—</strong>
+                    </div>
+
+                    <div class="result-box">
+                        <span>Fahrenheit</span>
+                        <strong id="fahrenheitResult">—</strong>
+                    </div>
+
+                    <div class="result-box">
+                        <span>Kelvin</span>
+                        <strong id="kelvinResult">—</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>Temperature Converter · Built with HTML, CSS & JavaScript</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
