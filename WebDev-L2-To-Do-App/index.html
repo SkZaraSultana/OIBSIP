@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TaskFlow | To-Do Web App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- Header -->
+        <header class="header">
+            <p class="eyebrow">Daily Task Manager</p>
+
+            <h1>TaskFlow</h1>
+
+            <p class="subtitle">
+                Organise your day, keep track of what matters,
+                and turn small tasks into completed goals.
+            </p>
+        </header>
+
+
+        <!-- Add Task -->
+        <section class="add-task-section">
+
+            <form class="add-task" id="taskForm">
+
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="What do you need to get done?"
+                    autocomplete="off"
+                    maxlength="120"
+                >
+
+                <button type="submit" class="add-button">
+                    Add Task
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Task Lists -->
+        <section class="task-lists">
+
+            <!-- Pending Tasks -->
+            <section class="task-section">
+
+                <div class="section-top">
+
+                    <h2 class="section-title">
+                        Pending Tasks
+                    </h2>
+
+                    <span class="task-count" id="pendingCount">
+                        0 pending
+                    </span>
+
+                </div>
+
+
+                <div class="task-list" id="pendingList">
+
+                    <div class="empty-state" id="pendingEmpty">
+
+                        <div class="empty-icon">
+                            ✓
+                        </div>
+
+                        <p>
+                            No pending tasks yet.<br>
+                            Add something you'd like to accomplish.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Completed Tasks -->
+            <section class="task-section completed-section">
+
+                <div class="section-top">
+
+                    <h2 class="section-title">
+                        Completed Tasks
+                    </h2>
+
+                    <span class="task-count" id="completedCount">
+                        0 completed
+                    </span>
+
+                </div>
+
+
+                <div class="task-list" id="completedList">
+
+                    <div class="empty-state" id="completedEmpty">
+
+                        <div class="empty-icon">
+                            ★
+                        </div>
+
+                        <p>
+                            Nothing completed yet.<br>
+                            Your finished tasks will appear here.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                TaskFlow · Built with HTML, CSS & Vanilla JavaScript
+            </p>
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
